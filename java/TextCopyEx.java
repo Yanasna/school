@@ -20,11 +20,11 @@ public class TextCopyEx {
 			}
 			fi.close();
 			fo.close();
-			System.out.println( "ÆÄÀÏ º¹»ç ¿Ï·á");
+			System.out.println( "íŒŒì¼ ë³µì‚¬ ì™„ë£Œ");
 		} catch (Exception e) {
 			// TODO: handle exception
 			e.printStackTrace();
-			System.out.print("ÆÄÀÏ º¹»ç ¿¡·¯");
+			System.out.print("íŒŒì¼ ë³µì‚¬ ì—ëŸ¬");
 		}
 	}
 
