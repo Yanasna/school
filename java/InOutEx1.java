@@ -12,7 +12,7 @@ public class InOutEx1 {
 		
 		Scanner sc = new Scanner(System.in); 
 		FileWriter fout = null;
-		System.out.print("ÀÌ¸§°ú ³ªÀÌ¸¦ ÀÔ·ÂÇÏ¼¼¿ä >> ");
+		System.out.print("ì´ë¦„ê³¼ ë‚˜ì´ë¥¼ ìž…ë ¥í•˜ì„¸ìš” >> ");
 		
 		String name = sc.nextLine();
 		
@@ -30,7 +30,7 @@ public class InOutEx1 {
 		fout.close();
 		}catch(IOException e)
 			{
-				System.out.println("ÀÔÃâ·Â ¿À·ù");
+				System.out.println("ìž…ì¶œë ¥ ì˜¤ë¥˜");
 			}
 		sc.close();
 	}
