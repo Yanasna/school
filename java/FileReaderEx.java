@@ -19,7 +19,7 @@ public class FileReaderEx {
 		} catch (FileNotFoundException e) {
 			// TODO: handle exception
 			e.printStackTrace();
-			System.out.println("ÆÄÀÏÀÌ ¾ø½À´Ï´Ù.");
+			System.out.println("Ã†Ã„Ã€ÃÃ€ÃŒ Â¾Ã¸Â½Ã€Â´ÃÂ´Ã™.");
 		} catch(IOException e){
 			e.printStackTrace();
 		}
