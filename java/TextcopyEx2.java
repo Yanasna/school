@@ -21,11 +21,11 @@ public class TextcopyEx2 {
 			}
 			fr.close();
 			fw.close();
-			System.out.println(src.getPath() + "ÆÄÀÏ º¹»ç ¿Ï·á" + dest.getPath());
+			System.out.println(src.getPath() + "íŒŒì¼ ë³µì‚¬ ì™„ë£Œ" + dest.getPath());
 		} catch (Exception e) {
 			// TODO: handle exception
 			e.printStackTrace();
-			System.out.print("ÆÄÀÏ º¹»ç ¿¡·¯");
+			System.out.print("íŒŒì¼ ë³µì‚¬ ì—ëŸ¬");
 			
 		}
 	}
