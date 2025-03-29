@@ -11,7 +11,7 @@ public class Exam06 {
 			System.out.println(num1/num2);
 		}
 		catch (java.lang.ArithmeticException e) {
-			System.out.println("°è»ê¿¡ ¹®Á¦°¡ ÀÖ½À´Ï´Ù.");
+			System.out.println("Â°Ã¨Â»ÃªÂ¿Â¡ Â¹Â®ÃÂ¦Â°Â¡ Ã€Ã–Â½Ã€Â´ÃÂ´Ã™.");
 			
 //			e.printStackTrace();
 		}
