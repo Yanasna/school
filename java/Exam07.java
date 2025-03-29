@@ -6,9 +6,9 @@ public class Exam07 {
 		// TODO Auto-generated method stub
 		
 		Car myCar1 = new Car();
-		Car myCar2 = new Car("»¡°£»ö ", 0);
-		Car myCar3 = new Car("ÆÄ¶û", 0);
-		Car iuCar = new Car("ÃÊ·Ï", 0);
+		Car myCar2 = new Car("ë¹¨ê°„ìƒ‰ ", 0);
+		Car myCar3 = new Car("íŒŒëž‘", 0);
+		Car iuCar = new Car("ì´ˆë¡", 0);
 		
 		System.out.println(myCar1.getColor() + ", "+  myCar1.getSpeed());  // myCar1
 		System.out.println(myCar2.getColor() + ", " + myCar2.getSpeed()); // myCar2
@@ -17,12 +17,12 @@ public class Exam07 {
 		myCar2.upSpeed(70);
 		System.out.println(myCar2.getColor() + ", " + myCar2.getSpeed());
 		
-		System.out.println("»ý»êµÈ Â÷ÀÇ ´ë¼ö(Á¤Àû ÇÊµå) ==> " + Car.carCount);
-		System.out.println("»ý»êµÈ Â÷ÀÇ ´ë¼ö(Á¤Àû ¸Þ¼Òµå) == > " + Car.currentCarCount());
-		System.out.println("Â÷ÀÇ ÃÖ°í Á¦ÇÑ ¼Óµµ ==> " + Car.MAXSPEED);
+		System.out.println("ìƒì‚°ëœ ì°¨ì˜ ëŒ€ìˆ˜(ì •ì  í•„ë“œ) ==> " + Car.carCount);
+		System.out.println("ìƒì‚°ëœ ì°¨ì˜ ëŒ€ìˆ˜(ì •ì  ë©”ì†Œë“œ) == > " + Car.currentCarCount());
+		System.out.println("ì°¨ì˜ ìµœê³  ì œí•œ ì†ë„ ==> " + Car.MAXSPEED);
 		
-		System.out.println("PIÀÇ °ª :::: " + Math.PI);
-		System.out.println("3ÀÇ 5Á¦°ö ==> " + Math.pow(3, 5));
+		System.out.println("PIì˜ ê°’ :::: " + Math.PI);
+		System.out.println("3ì˜ 5ì œê³± ==> " + Math.pow(3, 5));
 		
 	}	
 
