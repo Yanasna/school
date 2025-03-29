@@ -12,48 +12,48 @@ public class dy25031101 {
 		Scanner sc = new Scanner(System.in);
 		Random rd  = new Random();
 		
-		System.out.println("°úÀÚ ¶Ç´Â À½·á¼ö ÀÔ·Â >>  ");
+		System.out.println("ê³¼ì ë˜ëŠ” ìŒë£Œìˆ˜ ì…ë ¥ >>  ");
 		String zapanki = sc.nextLine();
-		if(zapanki.equals("À½·á¼ö")) {
+		if(zapanki.equals("ìŒë£Œìˆ˜")) {
 			int juice = rd.nextInt(5) + 1; 
 			
 			switch(juice) {
 			case 1 : 
-				System.out.println("³ª¶ûµå »çÀÌ´Ù");
+				System.out.println("ë‚˜ë‘ë“œ ì‚¬ì´ë‹¤");
 				break;
 			case 2 : 
-				System.out.println("µ¥ÀÚ¿Í");
+				System.out.println("ë°ìì™€");
 				break;
 			case 3 : 
-				System.out.println("Äİ¶ó");
+				System.out.println("ì½œë¼");
 				break;
 			case 4 : 
-				System.out.println("Æ÷Ä«¸®");
+				System.out.println("í¬ì¹´ë¦¬");
 				break;
 			case 5 : 
-				System.out.println("ÀÀ ¾ÈÁà");
+				System.out.println("ì‘ ì•ˆì¤˜");
 				break;
 			}
 		}
-		else if(zapanki.equals("°úÀÚ")) {
+		else if(zapanki.equals("ê³¼ì")) {
 			int cheaps = rd.nextInt(3) + 1;
 			switch(cheaps) {
 			case 1 : 
-				System.out.println("Æ÷Ä«Ä¨");
+				System.out.println("í¬ì¹´ì¹©");
 				break;
 				
 			case 2 : 
-				System.out.println("½ºÀ®Ä¨");
+				System.out.println("ìŠ¤ìœ™ì¹©");
 				break;
 				
 			case 3 :  
-				System.out.println("²Î!!!");
+				System.out.println("ê½!!!");
 				break;
 			}
 		}
 		else 
 		{
-			System.out.println("ÇÊ¿ä¾øÀ½ °¡¶ó~");
+			System.out.println("í•„ìš”ì—†ìŒ ê°€ë¼~");
 		}
 		
 		
