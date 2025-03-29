@@ -4,9 +4,9 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Car myCar1 = new Car("Àº»ö", 0);
+		Car myCar1 = new Car("Ã€ÂºÂ»Ã¶", 0);
 		System.out.println(myCar1.getColor() + " , "  + myCar1.getSpeed());
-		Automobile myAuto = new Automobile("Èò»ö", 0, 6);
+		Automobile myAuto = new Automobile("ÃˆÃ²Â»Ã¶", 0, 6);
 		System.out.println(myAuto.getColor() + ", " + myAuto.getSpeed() + ", " + myAuto.getSeatNum());
 		
 		
