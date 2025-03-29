@@ -2,7 +2,7 @@ package dy250311;
 
 public class Car {
 	
-	private String color; //¿©±â¼­ ¹Û¿¡ ¸ø¾¸
+	private String color; //ì—¬ê¸°ì„œ ë°–ì— ëª»ì”€
 	private int speed =  0; 
 	static int carCount = 0; // static --> only one / Sharing 
 	final static int MAXSPEED = 200;  
@@ -14,7 +14,7 @@ public class Car {
 	
 	Car(){}
 	
-	//»ı¼ºÀÚ
+	//ìƒì„±ì
 	
 	Car(String color, int speed){
 		this.color = color;
@@ -57,7 +57,7 @@ public class Car {
 	public int setSpeed() {
 		return speed;
 	}
-//private ÇØ¼­ getColor·Î ¹Ş¾Æ¾²±â
+//private í•´ì„œ getColorë¡œ ë°›ì•„ì“°ê¸°
 
 }
 	
