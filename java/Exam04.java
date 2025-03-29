@@ -9,7 +9,7 @@ public class Exam04 {
 			one[i] = 10* i;
 		}
 		
-		String two[] = {"гоЁ╙", "╣я" , "╪б" };
+		String two[] = {"ц┤ц▐бЁб╙", "б╣ц▒" , "б╪ц┌" };
 		for(String str : two) {
 			System.out.println(str);
 		}
