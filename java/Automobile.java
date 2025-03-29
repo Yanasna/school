@@ -1,24 +1,24 @@
 package pro0317;
 
 
-//ºÎ¸ð ¼³°èµµ
+//ë¶€ëª¨ ì„¤ê³„ë„
 class Car {
-	//1.¼Ó¼º ¸Þ¼Òµå
-	protected String color;  //»ö»ó
+	//1.ì†ì„± ë©”ì†Œë“œ
+	protected String color;  //ìƒ‰ìƒ
 	 
-	protected int speed; //¼Óµµ
+	protected int speed; //ì†ë„
 	
-	//private ÀÚ½Ä¿¡ »ó¼Ó ¾ÈµÊ
+	//private ìžì‹ì— ìƒì† ì•ˆë¨
 	
 	
-	//2. »ý¼ºÀÚ
+	//2. ìƒì„±ìž
 	Car(){}
 	Car(String color, int speed){
 		this.color = color;
 		this.speed = speed;
 	}
 	
-	//3. ÇÒÀÏ ¸Þ¼Òµå
+	//3. í• ì¼ ë©”ì†Œë“œ
 	
 	public String getColor() {
 		return color;
@@ -43,19 +43,19 @@ class Car {
 }
 
 
-//ÀÚ½ÄÅ¬·¡½º
+//ìžì‹í´ëž˜ìŠ¤
 public class Automobile extends Car{
 	
-	//1.¼Ó¼º ¸Þ¼Òµå
+	//1.ì†ì„± ë©”ì†Œë“œ
 	private int seatNum;
-		//2. »ý¼ºÀÚ
+		//2. ìƒì„±ìž
 	Automobile(String color, int speed, int seatNum){
 		this.color = color;
 		this.speed = speed;
 		this.seatNum = seatNum;
 		
 	}
-		//3. ÇÒÀÏ ¸Þ¼Òµå
+		//3. í• ì¼ ë©”ì†Œë“œ
 		//source -> generate 
 
 	public int getSeatNum() {
@@ -68,7 +68,7 @@ public class Automobile extends Car{
 	
 @Override
 void upspeed(int value) {
-	//protected´Â ÀÚ½Ä »ó¼Ó °¡´ÉÇÏ´Ù.
+	//protectedëŠ” ìžì‹ ìƒì† ê°€ëŠ¥í•˜ë‹¤.
 	// TODO Auto-generated method stub
 	speed = speed + value;
 	if (speed > 300)
