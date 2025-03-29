@@ -12,11 +12,11 @@ public class UserMain {
 		Scanner sc = new Scanner(System.in);
 		
 		while (true) {
-			System.out.println("ÀÌ¸§À» ÀÔ·ÂÇÏ¼¼¿ä");
+			System.out.println("ì´ë¦„ì„ ì…ë ¥í•˜ì„¸ìš”");
 			String name = sc.nextLine();
-			if(name.equals("±×¸¸"))
+			if(name.equals("ê·¸ë§Œ"))
 				break;
-			System.out.println("³ªÀÌ¸¦ ÀÔ·ÂÇÏ¼¼¿ä(±×¸¸ÀÔ·Â½Ã Á¾·á)");
+			System.out.println("ë‚˜ì´ë¥¼ ì…ë ¥í•˜ì„¸ìš”(ê·¸ë§Œì…ë ¥ì‹œ ì¢…ë£Œ)");
 			int age = Integer.parseInt(sc.nextLine());
 			
 			
@@ -32,7 +32,7 @@ public class UserMain {
 			fr.write(user.toString());
 			fr.newLine();
 		}
-		System.out.println("ÆÄÀÏ »ı¼º ¿Ï·á");
+		System.out.println("íŒŒì¼ ìƒì„± ì™„ë£Œ");
 		fr.close();
 		}
 		catch(Exception e) {
